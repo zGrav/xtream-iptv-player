@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">홈 탐색</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">위로 탐색</string>
+    <string name="abc_action_menu_overflow_description">옵션 더보기</string>
+    <string name="abc_action_mode_done">완료</string>
+    <string name="abc_activity_chooser_view_see_all">전체 보기</string>
+    <string name="abc_activitychooserview_choose_application">앱 선택</string>
+    <string name="abc_capital_off">사용 안함</string>
+    <string name="abc_capital_on">사용</string>
+    <string name="abc_search_hint">검색...</string>
+    <string name="abc_searchview_description_clear">검색어 삭제</string>
+    <string name="abc_searchview_description_query">검색어</string>
+    <string name="abc_searchview_description_search">검색</string>
+    <string name="abc_searchview_description_submit">검색어 보내기</string>
+    <string name="abc_searchview_description_voice">음성 검색</string>
+    <string name="abc_shareactionprovider_share_with">공유 대상</string>
+    <string name="abc_shareactionprovider_share_with_application">%s와(과) 공유</string>
+    <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="common_google_play_services_unknown_issue">%1$s에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요.</string>
+    <string name="exo_controls_fastforward_description">빨리 감기</string>
+    <string name="exo_controls_next_description">다음 트랙</string>
+    <string name="exo_controls_pause_description">일시중지</string>
+    <string name="exo_controls_play_description">재생</string>
+    <string name="exo_controls_previous_description">이전 트랙</string>
+    <string name="exo_controls_rewind_description">되감기</string>
+    <string name="exo_controls_stop_description">중지</string>
+    <string name="s1">이미지 저장</string>
+    <string name="s2">광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
+    <string name="s3">동의</string>
+    <string name="s4">거부</string>
+    <string name="s5">캘린더 일정 만들기</string>
+    <string name="s6">광고에서 캘린더 일정을 만들도록 허용하시겠습니까?</string>
+    <string name="search_menu_title">검색</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

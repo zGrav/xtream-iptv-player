@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Przejdź do strony głównej</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="abc_action_mode_done">Gotowe</string>
+    <string name="abc_activity_chooser_view_see_all">Zobacz wszystkie</string>
+    <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
+    <string name="abc_capital_off">WYŁ.</string>
+    <string name="abc_capital_on">WŁ.</string>
+    <string name="abc_search_hint">Szukaj…</string>
+    <string name="abc_searchview_description_clear">Wyczyść zapytanie</string>
+    <string name="abc_searchview_description_query">Wyszukiwane hasło</string>
+    <string name="abc_searchview_description_search">Szukaj</string>
+    <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
+    <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
+    <string name="abc_shareactionprovider_share_with">Udostępnij dla</string>
+    <string name="abc_shareactionprovider_share_with_application">Udostępnij dla %s</string>
+    <string name="abc_toolbar_collapse_description">Zwiń</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ma problem z dostępem do Usług Google Play. Spróbuj jeszcze raz.</string>
+    <string name="exo_controls_fastforward_description">Przewiń do przodu</string>
+    <string name="exo_controls_next_description">Następny utwór</string>
+    <string name="exo_controls_pause_description">Wstrzymaj</string>
+    <string name="exo_controls_play_description">Odtwórz</string>
+    <string name="exo_controls_previous_description">Poprzedni utwór</string>
+    <string name="exo_controls_rewind_description">Przewiń do tyłu</string>
+    <string name="exo_controls_stop_description">Zatrzymaj</string>
+    <string name="s1">Zapisz obraz</string>
+    <string name="s2">Zezwolić reklamie na zapisanie obrazu w galerii zdjęć?</string>
+    <string name="s3">Zaakceptuj</string>
+    <string name="s4">Odrzuć</string>
+    <string name="s5">Utwórz wydarzenie w kalendarzu</string>
+    <string name="s6">Zezwolić reklamie na utworzenie wydarzenia w kalendarzu?</string>
+    <string name="search_menu_title">Szukaj</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

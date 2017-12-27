@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_sync_frequency_titles" android:title="@string/pref_title_sync_frequency" android:key="sync_frequency" android:defaultValue="180" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_sync_frequency_values" />
+    <Preference android:title="@string/pref_title_system_sync_settings">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+</PreferenceScreen>

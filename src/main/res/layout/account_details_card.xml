@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/username_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+            <TextView android:textStyle="bold" android:gravity="start" android:layout_gravity="start" android:id="@id/username_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/username_lbl" />
+            <TextView android:gravity="end" android:layout_gravity="end" android:id="@id/username_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/username_label" android:layout_alignParentTop="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <android.support.v7.widget.CardView android:id="@id/status_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+            <TextView android:textStyle="bold" android:gravity="start" android:layout_gravity="start" android:id="@id/status_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_lbl" />
+            <TextView android:gravity="end" android:layout_gravity="end" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/status_label" android:layout_alignParentTop="false" android:layout_alignParentRight="true" />
+            <TextView android:textColor="@android:color/white" android:textColorLink="@android:color/white" android:id="@id/is_test" android:background="@color/colorAccent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/test_value" android:layout_alignRight="@id/status_text" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView android:id="@id/expire_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+            <TextView android:textStyle="bold" android:gravity="start" android:layout_gravity="start" android:id="@id/expire_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expire_date" />
+            <TextView android:gravity="end" android:layout_gravity="end" android:id="@id/expire_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/expire_label" android:layout_alignParentTop="false" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

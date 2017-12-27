@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigasi ke beranda</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigasi naik</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Kueri penelusuran</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="exo_controls_fastforward_description">Maju cepat</string>
+    <string name="exo_controls_next_description">Lagu berikutnya</string>
+    <string name="exo_controls_pause_description">Jeda</string>
+    <string name="exo_controls_play_description">Putar</string>
+    <string name="exo_controls_previous_description">Lagu sebelumnya</string>
+    <string name="exo_controls_rewind_description">Putar Ulang</string>
+    <string name="exo_controls_stop_description">Berhenti</string>
+    <string name="s1">Simpan gambar</string>
+    <string name="s2">Izinkan Iklan menyimpan gambar di Galeri foto?</string>
+    <string name="s3">Terima</string>
+    <string name="s4">Tolak</string>
+    <string name="s5">Buat acara kalender</string>
+    <string name="s6">Izinkan Iklan membuat acara kalender?</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

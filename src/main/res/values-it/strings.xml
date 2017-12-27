@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Vai alla home page</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Vai in alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_action_mode_done">Fine</string>
+    <string name="abc_activity_chooser_view_see_all">Visualizza tutte</string>
+    <string name="abc_activitychooserview_choose_application">"Scegli un'applicazione"</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Cerca…</string>
+    <string name="abc_searchview_description_clear">Cancella query</string>
+    <string name="abc_searchview_description_query">Query di ricerca</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Invia query</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
+    <string name="abc_toolbar_collapse_description">Comprimi</string>
+    <string name="common_google_play_services_unknown_issue">%1$s sta riscontrando problemi con Google Play Services. Riprova.</string>
+    <string name="exo_controls_fastforward_description">Avanti veloce</string>
+    <string name="exo_controls_next_description">Traccia successiva</string>
+    <string name="exo_controls_pause_description">Metti in pausa</string>
+    <string name="exo_controls_play_description">Riproduci</string>
+    <string name="exo_controls_previous_description">Traccia precedente</string>
+    <string name="exo_controls_rewind_description">Riavvolgi</string>
+    <string name="exo_controls_stop_description">Interrompi</string>
+    <string name="s1">Salva immagine</string>
+    <string name="s2">"Consentire ad AdMob di memorizzare l'immagine nella galleria Immagini?"</string>
+    <string name="s3">Accetto</string>
+    <string name="s4">Rifiuto</string>
+    <string name="s5">Crea evento di calendario</string>
+    <string name="s6">Consentire ad AdMob di creare un evento di calendario?</string>
+    <string name="search_menu_title">Ricerca</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Điều hướng về trang chủ</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
+    <string name="abc_action_menu_overflow_description">Thêm tùy chọn</string>
+    <string name="abc_action_mode_done">Xong</string>
+    <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
+    <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
+    <string name="abc_capital_off">TẮT</string>
+    <string name="abc_capital_on">BẬT</string>
+    <string name="abc_search_hint">Tìm kiếm…</string>
+    <string name="abc_searchview_description_clear">Xóa truy vấn</string>
+    <string name="abc_searchview_description_query">Tìm kiếm truy vấn</string>
+    <string name="abc_searchview_description_search">Tìm kiếm</string>
+    <string name="abc_searchview_description_submit">Gửi truy vấn</string>
+    <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
+    <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
+    <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="abc_toolbar_collapse_description">Thu gọn</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại.</string>
+    <string name="exo_controls_fastforward_description">Tua đi</string>
+    <string name="exo_controls_next_description">Bản nhạc tiếp theo</string>
+    <string name="exo_controls_pause_description">Tạm dừng</string>
+    <string name="exo_controls_play_description">Phát</string>
+    <string name="exo_controls_previous_description">Bản nhạc trước</string>
+    <string name="exo_controls_rewind_description">Tua lại</string>
+    <string name="exo_controls_stop_description">Ngừng</string>
+    <string name="s1">Lưu hình ảnh</string>
+    <string name="s2">Cho phép Quảng cáo lưu trữ hình ảnh trong thư viện Ảnh?</string>
+    <string name="s3">Chấp nhận</string>
+    <string name="s4">Từ chối</string>
+    <string name="s5">Tạo sự kiện lịch</string>
+    <string name="s6">Cho phép Quảng cáo tạo sự kiện lịch?</string>
+    <string name="search_menu_title">Tìm kiếm</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

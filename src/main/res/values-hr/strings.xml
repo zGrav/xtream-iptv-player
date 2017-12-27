@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Idi na početnu</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Idi gore</string>
+    <string name="abc_action_menu_overflow_description">Dodatne opcije</string>
+    <string name="abc_action_mode_done">Gotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Prikaži sve</string>
+    <string name="abc_activitychooserview_choose_application">Odabir aplikacije</string>
+    <string name="abc_capital_off">ISKLJUČENO</string>
+    <string name="abc_capital_on">UKLJUČENO</string>
+    <string name="abc_search_hint">Pretražite…</string>
+    <string name="abc_searchview_description_clear">Izbriši upit</string>
+    <string name="abc_searchview_description_query">Upit za pretraživanje</string>
+    <string name="abc_searchview_description_search">Pretraživanje</string>
+    <string name="abc_searchview_description_submit">Pošalji upit</string>
+    <string name="abc_searchview_description_voice">Glasovno pretraživanje</string>
+    <string name="abc_shareactionprovider_share_with">Dijeljenje sa</string>
+    <string name="abc_shareactionprovider_share_with_application">Dijeljenje sa: %s</string>
+    <string name="abc_toolbar_collapse_description">Sažmi</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ima poteškoća s uslugama Google Playa. Pokušajte ponovo.</string>
+    <string name="exo_controls_fastforward_description">Brzo unaprijed</string>
+    <string name="exo_controls_next_description">Sljedeća pjesma</string>
+    <string name="exo_controls_pause_description">Pauziraj</string>
+    <string name="exo_controls_play_description">Reproduciraj</string>
+    <string name="exo_controls_previous_description">Prethodna pjesma</string>
+    <string name="exo_controls_rewind_description">Unatrag</string>
+    <string name="exo_controls_stop_description">Zaustavi</string>
+    <string name="s1">Spremi sliku</string>
+    <string name="s2">Želite li dopustiti oglasu da spremi sliku u galeriju slika?</string>
+    <string name="s3">Prihvati</string>
+    <string name="s4">Odbij</string>
+    <string name="s5">Izradi događaj u kalendaru</string>
+    <string name="s6">Želite li dopustiti oglasu da izradi događaj u kalendaru?</string>
+    <string name="search_menu_title">Pretraživanje</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

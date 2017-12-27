@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_entries_player" android:title="@string/pref_title_player" android:key="@string/pref_key_player" android:defaultValue="2" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_entry_values_player" />
+</PreferenceScreen>
