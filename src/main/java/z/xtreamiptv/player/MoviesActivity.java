@@ -1,4 +1,4 @@
-package com.xtream_iptv.player;
+package z.xtreamiptv.player;
 
 import Adapters.VodStreamsAdapter;
 import Models.Movie;

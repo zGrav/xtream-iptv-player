@@ -11,8 +11,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.xtream_iptv.player.R;
-import com.xtream_iptv.player.MoviesActivity;
+import z.xtreamiptv.player.R;
+import z.xtreamiptv.player.MoviesActivity;
 import java.util.List;
 
 public class VodCategoriesAdapter extends RecyclerView.Adapter<VodCategoriesAdapter.ViewHolder> {

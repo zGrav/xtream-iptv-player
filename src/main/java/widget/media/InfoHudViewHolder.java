@@ -6,7 +6,7 @@ import android.os.Message;
 import android.util.SparseArray;
 import android.view.View;
 import android.widget.TableLayout;
-import com.xtream_iptv.player.R;
+import z.xtreamiptv.player.R;
 import java.util.Locale;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;

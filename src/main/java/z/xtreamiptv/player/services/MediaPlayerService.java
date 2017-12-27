@@ -1,4 +1,4 @@
-package com.xtream_iptv.player.services;
+package z.xtreamiptv.player.services;
 
 import android.app.Service;
 import android.content.Context;

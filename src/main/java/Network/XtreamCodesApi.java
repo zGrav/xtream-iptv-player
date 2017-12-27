@@ -24,7 +24,7 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.xtream_iptv.player.utils.TtmlNode;
+import z.xtreamiptv.player.utils.TtmlNode;
 
 public class XtreamCodesApi {
     private Account account = new Account();

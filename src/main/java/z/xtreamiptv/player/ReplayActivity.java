@@ -1,4 +1,4 @@
-package com.xtream_iptv.player;
+package z.xtreamiptv.player;
 
 import Adapters.ReplayAdapter;
 import Models.Epg;

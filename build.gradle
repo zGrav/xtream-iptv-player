@@ -20,7 +20,7 @@ android {
     buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId 'com.xtream_iptv.player'
+        applicationId 'z.xtreamiptv.player'
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.xtream_iptv.player.R;
-import com.xtream_iptv.player.LiveChannelsActivity;
+import z.xtreamiptv.player.R;
+import z.xtreamiptv.player.LiveChannelsActivity;
 import java.util.List;
 
 public class LiveCategoriesAdapter extends RecyclerView.Adapter<LiveCategoriesAdapter.ViewHolder> {

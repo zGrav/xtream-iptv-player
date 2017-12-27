@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="0.2.4" package="com.xtream_iptv.player" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="0.2.4" package="z.xtreamiptv.player" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
@@ -7,10 +7,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="com.xtream_iptv.player.permission.C2D_MESSAGE" />
-    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.xtream_iptv.player.MyApplication" android:allowBackup="true" android:supportsRtl="true" android:banner="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round">
-        <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:name="com.xtream_iptv.player.MainActivity" />
-        <activity android:label="@string/app_name" android:name="com.xtream_iptv.player.LoginActivity">
+    <uses-permission android:name="z.xtreamiptv.player.permission.C2D_MESSAGE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="z.xtreamiptv.player.MyApplication" android:allowBackup="true" android:supportsRtl="true" android:banner="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round">
+        <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:name="z.xtreamiptv.player.MainActivity" />
+        <activity android:label="@string/app_name" android:name="z.xtreamiptv.player.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,16 +20,16 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.xtream_iptv.player.LiveChannelsActivity" android:parentActivityName="com.xtream_iptv.player.MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.xtream_iptv.player.MainActivity" />
+        <activity android:name="z.xtreamiptv.player.LiveChannelsActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
         </activity>
-        <activity android:name="com.xtream_iptv.player.MoviesActivity" android:parentActivityName="com.xtream_iptv.player.MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.xtream_iptv.player.MainActivity" />
+        <activity android:name="z.xtreamiptv.player.MoviesActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
         </activity>
-        <activity android:name="com.xtream_iptv.player.ReplayActivity" android:parentActivityName="com.xtream_iptv.player.MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.xtream_iptv.player.MainActivity" />
+        <activity android:name="z.xtreamiptv.player.ReplayActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
         </activity>
-        <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:name="com.xtream_iptv.player.VideoActivity" android:screenOrientation="user" android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:name="z.xtreamiptv.player.VideoActivity" android:screenOrientation="user" android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -44,8 +44,8 @@
                 <data android:mimeType="video/*" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_settings" android:name="com.xtream_iptv.player.SettingsActivity" android:parentActivityName="com.xtream_iptv.player.MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.xtream_iptv.player.MainActivity" />
+        <activity android:label="@string/title_activity_settings" android:name="z.xtreamiptv.player.SettingsActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
         </activity>
     </application>
 </manifest>

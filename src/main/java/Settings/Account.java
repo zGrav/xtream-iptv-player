@@ -3,7 +3,7 @@ package Settings;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import com.xtream_iptv.player.MyApplication;
+import z.xtreamiptv.player.MyApplication;
 
 public class Account {
     private static final String KEY_AUTH_RESPONSE = "auth_response";

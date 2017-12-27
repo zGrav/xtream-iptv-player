@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.xtream_iptv.player.R;
+import z.xtreamiptv.player.R;
 
 public class Setting {
     public static final int PV_PLAYER__AndroidMediaPlayer = 1;

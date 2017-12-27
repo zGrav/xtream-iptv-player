@@ -15,8 +15,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
-import com.xtream_iptv.player.R;
-import com.xtream_iptv.player.ReplayActivity;
+import z.xtreamiptv.player.R;
+import z.xtreamiptv.player.ReplayActivity;
 import java.util.List;
 
 public class ReplayChannelsAdapter extends RecyclerView.Adapter<ReplayChannelsAdapter.ViewHolder> {

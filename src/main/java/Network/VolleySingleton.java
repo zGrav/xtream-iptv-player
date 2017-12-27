@@ -5,7 +5,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-import com.xtream_iptv.player.MyApplication;
+import z.xtreamiptv.player.MyApplication;
 
 public class VolleySingleton {
     public static final String TAG = MyApplication.class.getSimpleName();

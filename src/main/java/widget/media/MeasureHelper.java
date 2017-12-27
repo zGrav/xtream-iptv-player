@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.View.MeasureSpec;
 import com.android.volley.DefaultRetryPolicy;
-import com.xtream_iptv.player.R;
+import z.xtreamiptv.player.R;
 import java.lang.ref.WeakReference;
 
 public final class MeasureHelper {

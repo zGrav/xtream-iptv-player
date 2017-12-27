@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.support.v7.preference.ListPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import com.xtream_iptv.player.R;
+import z.xtreamiptv.player.R;
 
 public class IjkListPreference extends ListPreference {
     private CharSequence[] mEntrySummaries;

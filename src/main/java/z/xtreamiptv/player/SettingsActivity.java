@@ -1,4 +1,4 @@
-package com.xtream_iptv.player;
+package z.xtreamiptv.player;
 
 import android.annotation.TargetApi;
 import android.content.Context;

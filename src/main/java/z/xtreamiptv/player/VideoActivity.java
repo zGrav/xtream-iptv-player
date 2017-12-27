@@ -1,4 +1,4 @@
-package com.xtream_iptv.player;
+package z.xtreamiptv.player;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +19,7 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.widget.TableLayout;
 import android.widget.TextView;
-import com.xtream_iptv.player.TracksFragment.ITrackHolder;
+import z.xtreamiptv.player.TracksFragment.ITrackHolder;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 import tv.danmaku.ijk.media.player.misc.ITrackInfo;
 import widget.media.AndroidMediaController;
