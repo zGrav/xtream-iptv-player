@@ -53,7 +53,6 @@ dependencies {
 
 //    //ijk
 //    //required, enough for most devices.
-//    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.8.4'
 //    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4'
 //
 //    //optional

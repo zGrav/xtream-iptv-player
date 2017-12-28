@@ -26,9 +26,9 @@ public class Setting {
 
     public int getPlayer() {
         try {
-            return Integer.valueOf(this.mSharedPreferences.getString(this.mAppContext.getString(R.string.pref_key_player), "")).intValue();
+            return Integer.valueOf(this.mSharedPreferences.getString(this.mAppContext.getString(R.string.pref_key_player), "3")).intValue();
         } catch (NumberFormatException e) {
-            return 2;
+            return 3;
         }
     }
 
