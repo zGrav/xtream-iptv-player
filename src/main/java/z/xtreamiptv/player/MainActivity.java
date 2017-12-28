@@ -142,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public int getCount() {
-            return 4;
+            //return 4;
+            return 3;
         }
 
         public CharSequence getPageTitle(int position) {
@@ -153,8 +154,8 @@ public class MainActivity extends AppCompatActivity {
                     return "Live";
                 case 2:
                     return "VOD";
-                case 3:
-                    return "Replay";
+//                case 3:
+//                    return "Replay";
                 default:
                     return null;
             }

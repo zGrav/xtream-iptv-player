@@ -3,7 +3,12 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="85.0dip">
         <LinearLayout android:id="@id/channel_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.android.volley.toolbox.NetworkImageView android:id="@id/channel_logo" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@id/channel_logo"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:background="@color/bg_dark" />
             <ImageView android:id="@id/defaul_icon" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/icon" />
         </LinearLayout>
         <TextView android:textStyle="bold" android:id="@id/channel_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/channel_logo_layout" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/channel_logo_layout" />
