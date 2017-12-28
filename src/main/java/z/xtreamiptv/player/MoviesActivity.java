@@ -41,8 +41,8 @@ public class MoviesActivity extends AppCompatActivity implements OnQueryTextList
 
         AlertDialog alertDialog = new AlertDialog.Builder(MoviesActivity.this).create();
 
-        alertDialog.setTitle("WARNING!");
-        alertDialog.setMessage("This app's native player cannot display Subtitles in VODs.\nPlease install VLC for best results.");
+        alertDialog.setTitle(getResources().getString(R.string.vlc_warning));
+        alertDialog.setMessage(getResources().getString(R.string.vlc_warning_desc));
         alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
