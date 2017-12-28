@@ -35,6 +35,8 @@
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="vlc_warning">WARNING!</string>
+    <string name="vlc_warning_desc">This app\'s native player cannot display Subtitles in VODs.\nPlease install VLC for best results.</string>
     <string name="N_A">N/A</string>
     <string name="TrackType_audio">Audio</string>
     <string name="TrackType_metadata">Meta data</string>
