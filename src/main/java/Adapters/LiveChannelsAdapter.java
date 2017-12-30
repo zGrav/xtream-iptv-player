@@ -6,6 +6,8 @@ import Network.VolleySingleton;
 import Network.XtreamCodesApi;
 import Settings.Account;
 import Settings.Setting;
+
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -19,6 +21,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.android.volley.toolbox.NetworkImageView;
 import z.xtreamiptv.player.R;
 import z.xtreamiptv.player.VideoActivity;
@@ -145,6 +149,11 @@ public class LiveChannelsAdapter extends RecyclerView.Adapter<LiveChannelsAdapte
     }
 
     public void setLiveChannels(List<Channel> channels) {
+        if (channels.size() == 0) {
+            ((Activity) mContext).finish();
+            Toast.makeText(mContext, mContext.getResources().getString(R.string.no_channels),
+                    Toast.LENGTH_LONG).show();
+        }
         this.allChannels.addAll(channels);
         this.channels = channels;
         notifyItemRangeChanged(0, channels.size());

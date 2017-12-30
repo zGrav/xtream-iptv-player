@@ -4,6 +4,8 @@ import Models.Movie;
 import Network.VolleySingleton;
 import Settings.Account;
 import Settings.Setting;
+
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -15,6 +17,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.android.volley.toolbox.NetworkImageView;
 import z.xtreamiptv.player.R;
 import z.xtreamiptv.player.VideoActivity;
@@ -82,6 +86,11 @@ public class VodStreamsAdapter extends RecyclerView.Adapter<VodStreamsAdapter.Vi
     }
 
     public void setMovies(List<Movie> movies) {
+        if (movies.size() == 0) {
+            ((Activity) mContext).finish();
+            Toast.makeText(mContext, mContext.getResources().getString(R.string.no_movies),
+                    Toast.LENGTH_LONG).show();
+        }
         this.allMovies.addAll(movies);
         this.movies = movies;
         notifyItemRangeChanged(0, movies.size());

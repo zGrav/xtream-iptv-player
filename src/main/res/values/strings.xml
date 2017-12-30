@@ -37,6 +37,9 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="vlc_warning">WARNING!</string>
     <string name="vlc_warning_desc">This app\'s native player cannot display Subtitles in VODs.\nPlease install VLC for best results.</string>
+    <string name="no_channels">No channels found for this category, either the server is down or you don\'t have access to this.</string>
+    <string name="no_categories">No categories found, either the server is down or you don\'t have access to this.</string>
+    <string name="no_movies">No movies found for this category, either the server is down or you don\'t have access to this.</string>
     <string name="N_A">N/A</string>
     <string name="TrackType_audio">Audio</string>
     <string name="TrackType_metadata">Meta data</string>

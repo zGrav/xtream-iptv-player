@@ -36,6 +36,9 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="vlc_warning">AVISO!</string>
     <string name="vlc_warning_desc">O reprodutor nativo desta aplicaçāo não suporta Legendas nos VODs.\nPor favor, instale o VLC para obter uma melhor experiência.</string>
+    <string name="no_channels">Não foram encontrados canais para esta categoria, o servidor poderá estar em baixo, ou poderá não ter acesso a esta categoria.</string>
+    <string name="no_categories">Não foram encontradas categorias, o servidor poderá estar em baixo, ou poderá não ter acesso a esta funcionalidade.</string>
+    <string name="no_movies">Não foram encontrados VODs para esta categoria, o servidor poderá estar em baixo, ou poderá não ter acesso a esta categoria.</string>
     <string name="N_A">N/A</string>
     <string name="TrackType_audio">Audio</string>
     <string name="TrackType_metadata">Metadados</string>

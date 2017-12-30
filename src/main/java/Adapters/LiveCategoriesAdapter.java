@@ -1,6 +1,8 @@
 package Adapters;
 
 import Models.Category;
+
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
@@ -10,6 +12,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import z.xtreamiptv.player.R;
 import z.xtreamiptv.player.LiveChannelsActivity;
 import java.util.List;
@@ -35,6 +39,10 @@ public class LiveCategoriesAdapter extends RecyclerView.Adapter<LiveCategoriesAd
     }
 
     public void setLiveCategories(List<Category> cats) {
+        if (cats.size() == 0) {
+            Toast.makeText(mContext, mContext.getResources().getString(R.string.no_categories),
+                    Toast.LENGTH_LONG).show();
+        }
         this.categories = cats;
         notifyItemRangeChanged(0, this.categories.size());
     }
