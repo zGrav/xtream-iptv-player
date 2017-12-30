@@ -9,3 +9,5 @@ Features:
 - No need for "IPTV Core" library from XTREAM-CODES to work
 - Current EPG on live playlist
 - NO ADS
+
+Uses parts of exoplayer and IJKPlayer.
