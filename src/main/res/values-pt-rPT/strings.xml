@@ -34,7 +34,7 @@
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="search_menu_title">Pesquisar</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="vlc_warning">aviso!</string>
+    <string name="vlc_warning">AVISO!</string>
     <string name="vlc_warning_desc">O reprodutor nativo desta aplicaçāo não suporta Legendas nos VODs.\nPor favor, instale o VLC para obter uma melhor experiência.</string>
     <string name="N_A">N/A</string>
     <string name="TrackType_audio">Audio</string>
@@ -76,7 +76,7 @@
     <string name="action_settings">Definicões</string>
     <string name="action_sign_in">Entrar</string>
     <string name="action_sign_in_short">Entrar</string>
-    <string name="app_name">OneClickIPTV Player</string>
+    <string name="app_name">Xtream-Codes IPTV Player</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bit_rate">bit_rate</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
