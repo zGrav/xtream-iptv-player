@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
         private String getDate(long timeStamp) {
             try {
-                return new SimpleDateFormat("MM/dd/yyyy").format(new Date(timeStamp));
+                return new SimpleDateFormat("dd/MM/yyyy").format(new Date(timeStamp));
             } catch (Exception e) {
                 return "xx";
             }
