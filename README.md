@@ -11,3 +11,5 @@ Features:
 - NO ADS
 
 Uses parts of exoplayer and IJKPlayer.
+
+WARNING: If you have shitty protection, this app will probably ban your IP/account as it uses scripts from the Panel itself.
