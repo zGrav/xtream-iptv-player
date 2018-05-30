@@ -2,3 +2,6 @@ release
 build
 /LICENSE
 /README.md
+.gradle
+.idea
+.DS_Store

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:foreground="?android:selectableItemBackground" app:cardElevation="6.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/series_logo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/series_logo"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@id/defaul_icon"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:src="@drawable/icon"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/series_name"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/series_logo_layout" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

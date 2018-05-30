@@ -4,12 +4,15 @@ import Adapters.LiveCategoriesAdapter;
 import Adapters.LiveChannelsAdapter;
 import Adapters.ReplayAdapter;
 import Adapters.ReplayChannelsAdapter;
+import Adapters.SeriesCategoriesAdapter;
+import Adapters.SeriesCategoryAdapter;
 import Adapters.VodCategoriesAdapter;
 import Adapters.VodStreamsAdapter;
 import Models.Category;
 import Models.Channel;
 import Models.Epg;
 import Models.Movie;
+import Models.SeriesCategory;
 import Settings.Account;
 import android.util.Base64;
 import android.util.Log;
@@ -30,6 +33,9 @@ public class XtreamCodesApi {
     private Account account = new Account();
     private List<Category> liveCategories;
     private List<Category> vodCategories;
+    private List<Category> seriesCategories;
+    private List<SeriesCategory> specificSeriesCategory;
+    private JSONObject specificSeries;
 
     class C07042 implements ErrorListener {
         C07042() {
@@ -81,6 +87,37 @@ public class XtreamCodesApi {
         }, new C07064()));
     }
 
+    public void getSeriesCategories(final SeriesCategoriesAdapter adapter) {
+        VolleySingleton.getInstance().addToRequestQueue(new JsonArrayRequest(0, this.account.getHost() + "player_api.php?username=" + this.account.getUsername() + "&password=" + this.account.getPassword() + "&action=get_series_categories", null, new Listener<JSONArray>() {
+            public void onResponse(JSONArray response) {
+                XtreamCodesApi.this.seriesCategories = XtreamCodesApi.this.parseCategories(response);
+                adapter.setSeriesCategories(XtreamCodesApi.this.seriesCategories);
+            }
+        }, new C07064()));
+    }
+
+    public void getSpecificSeriesCategory(final SeriesCategoriesAdapter adapter, final int catId, final String catName) {
+        VolleySingleton.getInstance().addToRequestQueue(new JsonArrayRequest(0, this.account.getHost() + "player_api.php?username=" + this.account.getUsername() + "&password=" + this.account.getPassword() + "&action=get_series&category_id=" + catId, null, new Listener<JSONArray>() {
+            public void onResponse(JSONArray response) {
+                XtreamCodesApi.this.specificSeriesCategory = XtreamCodesApi.this.parseSpecificSeriesCategories(response);
+                adapter.setSpecificSeriesCategory(XtreamCodesApi.this.specificSeriesCategory, catName);
+            }
+        }, new C07064()));
+    }
+
+    public void getSpecificSeries(final SeriesCategoryAdapter adapter, final int seriesId, final String seriesName) {
+        VolleySingleton.getInstance().addToRequestQueue(new JsonObjectRequest(0, this.account.getHost() + "player_api.php?username=" + this.account.getUsername() + "&password=" + this.account.getPassword() + "&action=get_series_info&series_id=" + seriesId, null, new Listener<JSONObject>() {
+            public void onResponse(JSONObject response) {
+                try {
+                    XtreamCodesApi.this.specificSeries = XtreamCodesApi.this.parseSpecificSeries(response);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                adapter.setSeries(XtreamCodesApi.this.specificSeries, seriesName);
+            }
+        }, new C07064()));
+    }
+
     private List<Category> parseCategories(JSONArray data) {
         List<Category> cats = new ArrayList();
         for (int i = 0; i < data.length(); i++) {
@@ -93,6 +130,23 @@ public class XtreamCodesApi {
         }
         cats.add(new Category(0, "All", 0));
         return cats;
+    }
+
+    private List<SeriesCategory> parseSpecificSeriesCategories(JSONArray data) {
+        List<SeriesCategory> cats = new ArrayList();
+        for (int i = 0; i < data.length(); i++) {
+            try {
+                JSONObject cat = data.getJSONObject(i);
+                cats.add(new SeriesCategory(cat.getString("name"), cat.getInt("series_id"), cat.getString("cover")));
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+        return cats;
+    }
+
+    private JSONObject parseSpecificSeries(JSONObject data) throws JSONException {
+        return data.getJSONObject("episodes");
     }
 
     public void getCategoryChannels(int id, final LiveChannelsAdapter mAdapter) {

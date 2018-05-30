@@ -29,6 +29,12 @@
         <activity android:name="z.xtreamiptv.player.ReplayActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
         </activity>
+        <activity android:name="z.xtreamiptv.player.SeriesCategoryActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
+        </activity>
+        <activity android:name="z.xtreamiptv.player.SeriesActivity" android:parentActivityName="z.xtreamiptv.player.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="z.xtreamiptv.player.MainActivity" />
+        </activity>
         <activity android:theme="@style/Theme.AppCompat.NoActionBar" android:label="@string/app_name" android:name="z.xtreamiptv.player.VideoActivity" android:screenOrientation="user" android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
