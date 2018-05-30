@@ -4,3 +4,4 @@ build
 /README.md
 .gradle
 .idea
+.DS_Store
