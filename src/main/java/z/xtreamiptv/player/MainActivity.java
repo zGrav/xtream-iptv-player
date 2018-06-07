@@ -118,15 +118,15 @@ public class MainActivity extends AppCompatActivity {
                     mRecyclerView.setAdapter(mAdapter);
                     return rootView;
                 case 5:
-                    //                    List<Channel> replayChan = Collections.emptyList();
-//                    rootView = inflater.inflate(R.layout.live_categories, container, false);
-//                    mRecyclerView = (RecyclerView) rootView.findViewById(R.id.my_recycler_view);
-//                    mRecyclerView.setHasFixedSize(false);
-//                    mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-//                    mAdapter = new ReplayChannelsAdapter(getActivity(), replayChan);
-//                    api.getReplayChannels((ReplayChannelsAdapter) mAdapter);
-//                    mRecyclerView.setAdapter(mAdapter);
-//                    return rootView;
+                   List<Channel> replayChan = Collections.emptyList();
+                   rootView = inflater.inflate(R.layout.live_categories, container, false);
+                   mRecyclerView = (RecyclerView) rootView.findViewById(R.id.my_recycler_view);
+                   mRecyclerView.setHasFixedSize(false);
+                   mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+                   mAdapter = new ReplayChannelsAdapter(getActivity(), replayChan);
+                   api.getReplayChannels((ReplayChannelsAdapter) mAdapter);
+                   mRecyclerView.setAdapter(mAdapter);
+                   return rootView;
                 default:
                     rootView = inflater.inflate(R.layout.fragment_main, container, false);
                     TextView textView = (TextView) rootView.findViewById(R.id.section_label);
@@ -153,8 +153,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public int getCount() {
-            return 4;
-            //return 5;
+            return 5;
         }
 
         public CharSequence getPageTitle(int position) {
@@ -167,8 +166,8 @@ public class MainActivity extends AppCompatActivity {
                     return "VOD";
                 case 3:
                     return "Series";
-//                case 4:
-//                    return "Replay";
+               case 4:
+                   return "Replay";
                 default:
                     return null;
             }
