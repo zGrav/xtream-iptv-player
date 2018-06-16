@@ -1,6 +1,6 @@
 # xtream-iptv-player
 
-# Deprecated, please refer to [xtream-iptv-player-nst](https://github.com/zGrav/xtream-iptv-player-nst)
+# Deprecated, please refer to [xtream-iptv-player-v3](https://github.com/zGrav/xtream-iptv-player-v3)
 
 **DISCLAIMER: THIS APP DOESN'T CONTAIN STREAMS, NEITHER PROVIDES ACCESS TO STREAMS**
 
