@@ -1,5 +1,7 @@
 # xtream-iptv-player
 
+# Deprecated, please refer to [xtream-iptv-player-nst](https://github.com/zGrav/xtream-iptv-player-nst)
+
 **DISCLAIMER: THIS APP DOESN'T CONTAIN STREAMS, NEITHER PROVIDES ACCESS TO STREAMS**
 
 You can watch IPTV streams from Xtream-Codes IPTV panel.
